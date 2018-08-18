@@ -11,6 +11,10 @@
   },
   "author": "cinnamon",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cinnamon-bun/kappa-cat.git"
+  },
   "dependencies": {
     "kappa-core": "2.3.0",
     "minimist": "1.2.0"
