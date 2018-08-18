@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 let kappa = require('kappa-core');
 let minimist = require('minimist');
 
