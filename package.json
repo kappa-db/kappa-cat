@@ -1,6 +1,6 @@
 {
   "name": "kappa-cat",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "print out contents of a kappa-core db",
   "main": "index.js",
   "bin": {
