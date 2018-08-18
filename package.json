@@ -1,0 +1,23 @@
+{
+  "name": "kappa-cat",
+  "version": "1.0.0",
+  "description": "print out contents of a kappa-core db",
+  "main": "index.js",
+  "bin": {
+    "kappa-cat": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cinnamon",
+  "license": "ISC",
+  "dependencies": {
+    "kappa-core": "2.3.0",
+    "minimist": "1.2.0"
+  },
+  "keywords": [
+    "cabal",
+    "kappa",
+    "kappa-core"
+  ]
+}
