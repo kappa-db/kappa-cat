@@ -8,7 +8,7 @@ args = minimist(process.argv.slice(2), {
 });
 path = args._[0];
 if (path === undefined) {
-    console.log('usage: index.js [-p | --pretty] $LOCAL_PATH');
+    console.log('usage: kappa-cat [-p | --pretty] $LOCAL_PATH');
     console.log('');
     console.log('    Print each message from a kappa-core multifeed.');
     console.log('');
