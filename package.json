@@ -4,7 +4,7 @@
   "description": "print out contents of a kappa-core db",
   "main": "index.js",
   "bin": {
-    "kappa-cat": "index.js"
+    "kappa-cat": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
