@@ -1,6 +1,6 @@
 {
   "name": "kappa-cat",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "print out contents of a kappa-core db",
   "main": "index.js",
   "bin": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/cinnamon-bun/kappa-cat.git"
   },
   "dependencies": {
-    "kappa-core": "2.3.0",
+    "kappa-core": "^3.0.1",
     "minimist": "1.2.0"
   },
   "keywords": [

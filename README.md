@@ -27,5 +27,5 @@ best to quit other kappa-core programs before running this one.
 
 --pretty     Pretty-print the json on multiple lines.
 $LOCAL_PATH  Path to local folder where kappa-core data is stored.
-             Might be ~/.cabal/archives/YOURKEY or ~/.cabal-desktop/YOURKEY
+             For Cabal, this might be ~/.cabal/v1/archives/YOURKEY
 ```

@@ -12,8 +12,11 @@ if (path === undefined) {
     console.log('');
     console.log('    Print each message from a kappa-core multifeed.');
     console.log('');
-    console.log("    Note that hypercores can only be used by one local process at a time, so");
-    console.log("    best to quit other kappa-core programs before running this one.");
+    console.log('    Notes:');
+    console.log('');
+    console.log("    * Hypercores can only be used by one local process at a time, so");
+    console.log("      best to quit other kappa-core programs before running this one.");
+    console.log('    * The "key" field in each item is the feed id.');
     console.log('');
     console.log('    -p | --pretty   Pretty-print the json on multiple lines.');
     console.log('    $LOCAL_PATH     Path to local folder where kappa-core data is stored.');
@@ -23,14 +26,12 @@ if (path === undefined) {
 
 let core = kappa(path, { valueEncoding: 'json' });
 
-let index = 0;
 let logview = {
     api: {},
     map: (msgs, next) => {
         msgs.forEach(msg => {
             let msgString = (args.p || args.pretty) ? JSON.stringify(msg, null, 4) : JSON.stringify(msg, null);
-            console.log(`message ${index}: ${msgString}`);
-            index += 1;
+            console.log(msgString);
         });
         next();
     }
